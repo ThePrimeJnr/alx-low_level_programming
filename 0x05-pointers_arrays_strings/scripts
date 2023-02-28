@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "Filename: " name
+echo > $name
+chmod u+x $name
+vim $name
