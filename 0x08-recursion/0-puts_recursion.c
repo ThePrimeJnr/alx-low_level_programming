@@ -1,12 +1,12 @@
 #include "main.h"
 
-int _puts_recursion (char *s)
+void _puts_recursion (char *s)
 {
-    if (s == '\0')
+    if (*s != '\0')
     {
-        return (1);
+        _putchar(*s);
+        _puts_recursion(s + 1);
     }
-    _putchar("%c", s);
-    _puts_recursion(s[n + 1]);
+    _putchar('\n');
 }
 
