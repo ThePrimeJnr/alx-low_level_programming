@@ -2,7 +2,11 @@
 
 int _square_div(int i)
 {
-	if (n
+	
+}
+
+
+
 
 int _sqrt_recursion(int n)
 {
@@ -16,6 +20,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (_square_div(i + 1) + _sqrt_recursion);
+		j = _square_div(i +1)
+		return (_sqrt_recursion(n / (j * j));
 	}
 }
