@@ -2,6 +2,8 @@
 
 /**
  * main -  prints each word in a sentence to a new line
+ * @argc: argument count
+ * @argv: argument velocity
  *
  * Return: Always 0, Success
  *
