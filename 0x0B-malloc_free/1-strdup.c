@@ -5,11 +5,6 @@
  * @str: string whose length will be returned
  *
  * Return: length of string
- *
- * _strdup - returns duplicate of a string
- * @str: original string
- *
- * Return: Null for failure of mem allocation else success
  */
 
 int _strlen(char *str)
@@ -24,6 +19,13 @@ int _strlen(char *str)
 	}
 	return (len);
 }
+
+/**
+ * _strdup - returns the duplicate of a string
+ * @str: string whose duplicate will be returned
+ *
+ * Return: duplicate of the string
+ */
 
 char *_strdup(char *str)
 {
