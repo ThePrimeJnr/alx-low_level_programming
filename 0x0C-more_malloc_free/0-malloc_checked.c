@@ -9,7 +9,7 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *space, *err;
+	void *space;
 
 	space = malloc(b);
 
