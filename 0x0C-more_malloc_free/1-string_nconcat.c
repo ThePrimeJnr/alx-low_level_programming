@@ -37,14 +37,24 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; i < _strlen(s1); i++)
+	if (s1 == NULL)
+		return (NULL);
+	else
 	{
-		str[i] = s1[i];
+		for (i = 0; i < _strlen(s1); i++)
+		{
+			str[i] = s1[i];
+		}
 	}
 
-	for (i = 0; i < n; i++)
+	if (s2 == NULL)
+		return (NULL);
+	else
 	{
-		str[_strlen(s1) + i] = s2[i];
+		for (i = 0; i < n; i++)
+		{
+			str[_strlen(s1) + i] = s2[i];
+		}
 	}
 
 	return (str);
