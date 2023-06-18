@@ -1,16 +1,24 @@
 #include "main.h"
 
+/**
+ * malloc_checked - allocates memory using malloc
+ * @b: size of memory to be allocated
+ *
+ * Return: 98 when fails else pointer of size
+ */
+
 void *malloc_checked(unsigned int b)
 {
-	void *space;
+	void *space, *err;
 
+    err = (void *)98;
 	space = malloc(b);
 
 	if (space == NULL)
 	{
 		free(space);
-		return ((void *)98);
+		return (err);
 	}
 
-	return(space);
+	return (space);
 }
