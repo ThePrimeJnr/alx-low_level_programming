@@ -11,13 +11,12 @@ void *malloc_checked(unsigned int b)
 {
 	void *space, *err;
 
-	err = (void *)98;
 	space = malloc(b);
 
 	if (space == NULL)
 	{
 		free(space);
-		return (err);
+		exit(98);
 	}
 
 	return (space);
