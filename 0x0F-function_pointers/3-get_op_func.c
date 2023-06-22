@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 
 int (*get_op_func(char *s))(int a, int b)
 {
@@ -16,7 +16,7 @@ int (*get_op_func(char *s))(int a, int b)
 	{
 		if (!strcmp(s, ops[i].op))
 		{
-			return (ops[i].f(a, b));
+			return ops[i].f;
 		}
 	}
 

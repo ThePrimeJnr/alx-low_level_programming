@@ -1,8 +1,8 @@
 #include "3-calc.h"
 
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
-	int a, b;
+	int a, b, result;
 
 	char *s;
 
@@ -14,8 +14,11 @@ int main(int argc, char *argv)
 
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
+	s = argv[2];
 
-	get_op_func(s)(a, b);
+	result = get_op_func(s)(a, b);
+
+	printf("%d\n", result);
 
 	return (0);
 }
