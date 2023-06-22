@@ -1,10 +1,20 @@
 #include "3-calc.h"
 
+/**
+ * main - calls the get op function
+ *
+ * @argc: argument count
+ * @argv: argument velocity
+ *
+ * Return: exit with 98 for incorrect usage, else 0
+ */
+
 int main(int argc, char **argv)
 {
 	int a, b, result;
 
 	char *s;
+
 
 	if (argc != 4)
 	{
