@@ -2,13 +2,17 @@
 
 void print_all(const char * const format, ...)
 {
-	unsigned int i;
+	unsigned int i, pass;
+	char *str;
 
 	va_list print;
 
 	va_start(print, format);
-	while (i < strlen(format))
+
+	i = 0;
+	while (format[i])
 	{
+		pass = 1;
 		switch (format[i])
 		{
 			case 'c':
@@ -21,11 +25,20 @@ void print_all(const char * const format, ...)
 				printf("%f", va_arg(print, double));
 				break;
 			case 's':
-				printf("%s",  va_arg(print, char *));
+				str = va_arg(print, char *);
+				if (str == NULL)
+					printf("(nil)");
+
+				printf("%s",  str);
 				break;
 			default:
+				pass = 0;
 				break;
 		}
+
+		if (format[i + 1] && pass)
+			printf(", ");
+
 		i++;
 	}
 
