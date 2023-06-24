@@ -24,32 +24,26 @@ void (*get_spec(char c))(char *)
 
 void print_all(const char * const format, ...)
 {
-	char s, *str;
 	unsigned int i;
+	char *str;
 	va_list print;
 
-	str = (char *)(malloc(sizeof(format)));
-
 	i = 0;
-	while (i < 4)
+
+	va_start(print, format);
+	while (i < strlen(format))
 	{
 		if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
-		printf("%c\n", format[i]);
+		{
+			str = va_arg(print, char *);
+			printf("%c ", format[i]);
+			printf("%s\n", str);
+		}
 		i++;
 	}
 	exit(98);
 
-	i = 0;
-	va_start(print, format);
 
-	while (i < strlen(format))
-	{
-		if (str[i] == 'c' || str[i] == 'i' || str[i] == 'f' || str[i] == 's')
-		{
-			s = str[i];
-			get_spec(s)(va_arg(print, char *));
-		}
-	}
 
 	va_end(print);
 
