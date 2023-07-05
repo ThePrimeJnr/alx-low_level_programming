@@ -4,9 +4,6 @@ size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
-	if (!h)
-		exit(EXIT_FAILURE);
-
 	while (h)
 	{
 		if (h->str==NULL)
@@ -16,8 +13,6 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		count++;
 	}
-
-
 	return (count);
 }
 
