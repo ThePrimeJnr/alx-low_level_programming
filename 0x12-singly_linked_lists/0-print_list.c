@@ -4,10 +4,10 @@ size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
-	if (h == NULL)
+	if (!h)
 	{
 		printf("Error\n");
-		return (-1);
+		exit(EXIT_FAILURE);
 	}
 
 	while (h)
