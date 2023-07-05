@@ -9,7 +9,6 @@
 * Author: DestinedCodes (Destiny Saturday)
 * Date: 05-07-2023
 */
-
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
@@ -25,5 +24,3 @@ size_t print_list(const list_t *h)
 	}
 	return (count);
 }
-
-

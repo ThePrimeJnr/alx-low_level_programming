@@ -15,7 +15,6 @@
  * Author: DestinedCodes (Destiny Saturday)
  * Date: 05-07-2023
  */
-
 typedef struct list_t
 {
 	char *str;
