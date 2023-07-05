@@ -4,11 +4,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct list_t{
-	char * str;
+/**
+ * struct list_t - Struct definition for each node
+ * @str: String data stored in each node
+ * @len: Length of string passed into the node
+ * @next: Pointer of type struct list_l to the next node
+ *
+ * Description: Structure for each node in the singly linked list
+ *
+ * Author: DestinedCodes (Destiny Saturday)
+ * Date: 05-07-2023
+ */
+
+typedef struct list_t
+{
+	char *str;
 	int len;
 	struct list_t *next;
-}list_t;
+} list_t;
 
 size_t print_list(const list_t *h);
 
