@@ -1,7 +1,11 @@
 #include "lists.h"
 
-print_listint(const listint_t *h)
+size_t print_listint(const listint_t *h)
 {
-	for (; h; h = h->next)
-		printf("%i", h->n);
+		size_t count = 0;
+
+		for (; h; h = h->next, count++)
+				printf("%i\n", h->n);
+
+		return (count);
 }
