@@ -100,7 +100,7 @@ I have thoroughly documented my learning process and experiences throughout this
 
 ## About the Author  👨‍💻
 
-👤 **Destiny Saturday (DestinedCodes)**
+👤 [**Destiny Saturday (DestinedCodes)**](https://github.com/DestinedCodes/)
 
 📧 **Email:** yiradesat@gmail.com
 
