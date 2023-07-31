@@ -2,11 +2,11 @@
 
 ![Hello World in C](https://github.com/DestinedCodes/alx-low_level_programming/assets/84413505/0bd657c6-1376-4960-a42e-42febce786da)
 
-## Welcome to the 0x00. C - Hello, World directory!
+## Welcome to the 0x00. C - Hello, World directory! 🌟
 
 This project marks the beginning of the ALX low-level programming curriculum and covers the fundamental concepts of compilation and C programming.
 
-## Project Overview 📚🔧
+## Project Overview 📚
 
 This directory contains several files, each serving a unique purpose:
 
@@ -62,7 +62,7 @@ This directory contains several files, each serving a unique purpose:
 9. **101-quote.c**:
    - A C program that prints exactly "and that piece of art is useful" - Dora Korpar, 2015-10-19" to the standard error.
 
-## Compilation Instructions 🛠️🔧
+## Compilation Instructions 🛠️
 
 To compile the C programs in this directory, follow these steps:
 
@@ -88,15 +88,15 @@ To compile the C programs in this directory, follow these steps:
 
 4. After successful compilation, you will find the output files or executables generated.
 
-## About the Author 👨‍💻🖊️
+## About the Author 👨‍💻
 
 👤 [**Destiny Saturday (DestinedCodes)**](https://github.com/DestinedCodes/)
 
 📧 **Email:** yiradesat@gmail.com
 
-## Additional Resources 📖💻
+## Additional Resources 📖
 
-For more insights and details about this project, I've written a blog post that provides a comprehensive guide to C Programming 101. Feel free to check it out [here](https://blog.destinedcodes.me/c-programming-101).
+For more insights and details about this project, I've written a blog post that provides a comprehensive guide to **C Programming 101**. Feel free to check it out [here](https://blog.destinedcodes.me/c-programming-101).
 
 ---
 
