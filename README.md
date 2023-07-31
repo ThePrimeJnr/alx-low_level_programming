@@ -1,10 +1,7 @@
-# ALX Low-Level Programming Repository
+![C Programming](https://github.com/DestinedCodes/alx-low_level_programming/assets/84413505/b6d43b85-d45b-486a-9362-cca03d5bf5f6)
+# ALX Low-Level Programming
 
-![ALX Logo](https://github.com/DestinedCodes/alx-low_level_programming/assets/84413505/b6d43b85-d45b-486a-9362-cca03d5bf5f6)
-
-## Welcome to my ALX Low-Level Programming Repository! 
-
-In this repository, I have documented my journey through the low-level programming and algorithm track at ALX-Africa SE. Throughout my Year 1 curriculum, I delved into data structures, algorithms, and other fascinating low-level programming concepts, all while working in the versatile C language. This repository showcases my growth and achievements during this learning process.
+Welcome to my ALX Low-Level Programming Repository! In this repository, I have documented my journey through the low-level programming and algorithm track at ALX-Africa SE. Throughout my Year 1 curriculum, I delved into data structures, algorithms, and other fascinating low-level programming concepts, all while working in the versatile C language. This repository showcases my growth and achievements during this learning process.
 
 ## Table of Contents
 
