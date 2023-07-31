@@ -1,9 +1,12 @@
+# ALX Low-Level Programming 🚀
+
 ![C Programming](https://github.com/DestinedCodes/alx-low_level_programming/assets/84413505/b6d43b85-d45b-486a-9362-cca03d5bf5f6)
-# ALX Low-Level Programming
 
-Welcome to my ALX Low-Level Programming Repository! In this repository, I have documented my journey through the low-level programming and algorithm track at ALX-Africa SE. Throughout my Year 1 curriculum, I delved into data structures, algorithms, and other fascinating low-level programming concepts, all while working in the versatile C language. This repository showcases my growth and achievements during this learning process.
+## Welcome to my ALX Low-Level Programming Repository! 🌟
 
-## Table of Contents
+In this repository, I have documented my journey through the low-level programming, algorithm and data structure track at ALX-Africa SE. I studied alot of data structures, algorithms, and other fascinating low-level programming concepts, all while working in the versatile C language. This repository showcases my growth and achievements during this learning process.
+
+## Table of Contents 📑
 
 Here's a list of the projects I've completed as part of the ALX curriculum:
 
@@ -91,13 +94,17 @@ Here's a list of the projects I've completed as part of the ALX curriculum:
 28. [0x1C. C - Makefiles](./0x1C-makefiles)
     - Learning to write Makefiles for efficient project compilation.
 
-## About the Author
+## Blog Series: C Programming Chronicles 💻
+
+I have thoroughly documented my learning process and experiences throughout this journey in my blog series called "C Programming Chronicles." In this series, I share insights, challenges, and tips that I encountered while working on these projects. Feel free to check it out [here](https://blog.destinedcodes.me/series/c-programming).
+
+## About the Author  👨‍💻
 
 👤 **Destiny Saturday (DestinedCodes)**
 
 📧 **Email:** yiradesat@gmail.com
 
-## Acknowledgements
+## Acknowledgements  🙌
 
 🙏 **Special thanks to ALX Africa** 🙏
 
