@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc $CFILE -E -o c
+
+#Author: Destiny Saturday (DestinedCodes)

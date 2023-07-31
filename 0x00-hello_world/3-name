@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc $CFILE -o cisfun
+
+#Author: Destiny Saturday (DestinedCodes)
