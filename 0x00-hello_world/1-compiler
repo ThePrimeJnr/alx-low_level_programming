@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# Script: compile-cfile.sh
+# Description: This script compiles the C file specified in the $CFILE variable and creates an object file.
+#
+# Author: Destiny Saturday (DestinedCodes)
+# Date: 2023-02-16
+
 gcc -c $CFILE
 
-#Author: Destiny Saturday (DestinedCodes)

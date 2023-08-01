@@ -1,4 +1,11 @@
 #!/bin/bash
+
+# Script: preprocessor-output.sh
+# Description: This script generates the preprocessor output for the C file specified in the $CFILE variable
+#              and saves it to a file named "c".
+#
+# Author: Destiny Saturday (DestinedCodes)
+# Date: 2023-02-16
+
 gcc $CFILE -E -o c
 
-#Author: Destiny Saturday (DestinedCodes)
