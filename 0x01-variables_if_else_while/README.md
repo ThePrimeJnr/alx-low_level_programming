@@ -58,25 +58,26 @@ $ ./0-positive_or_negative
 ```
 </details>
 
-1. <strong>The last digit</strong>:
-	<details>
-   <summary><strong><a href="./1-last_digit.c">1-last_digit.c</a></strong> - C program that prints the last digit of a randomly generated number, followed by a new line:</summary>
-   <br>
-   <ul>
-      <li>Completion of <a href="https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c">this source code</a>.</li>
-      <li>Stores a different value every time the program is run.</li>
-      <li>Prints the string <code>Last digit of</code> [number] <code>is</code> [last_digit] <code>and is</code> followed by <code>greater than 5</code> if the digit is greater than 5, <code>0</code> if the digit is 0, or <code>less than 6 and not 0</code> if the digit is less than 6 and not 0.</li>
-   </ul>
-   <br>
-   <strong>Test Cases:</strong>
-   <pre>
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
-   $ ./1-last_digit
-   Last digit of 629438752 is 2 and is less than 6 and not 0
-   $ ./1-last_digit
-   Last digit of -748255693 is -3 and is less than 6 and not 0
-	</pre>
-	</details>
+<details>
+<summary>
+	<strong><a href="./1-last_digit.c">1.The last digit:</a></strong>
+	C program that prints the last digit of a randomly generated number, followed by a new line
+</summary>
+<br>
+	
+- Completion of [this source code](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c).
+- Stores a different value every time the program is run.
+- Prints the string `Last digit of` [number] `is` [last_digit] `and is` followed by `greater than 5` if the digit is greater than 5, `0` if the digit is 0, or `less than 6 and not 0` if the digit is less than 6 and not 0.
+
+**Test Cases**
+```sh
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
+$ ./1-last_digit
+Last digit of 629438752 is 2 and is less than 6 and not 0
+$ ./1-last_digit
+Last digit of -748255693 is -3 and is less than 6 and not 0
+```
+</details>
 
 2. <strong>I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</strong>:
 	<details>
