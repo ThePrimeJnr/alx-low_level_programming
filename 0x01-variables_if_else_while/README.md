@@ -24,37 +24,39 @@ By the end of this project, I have developed the ability to explain the followin
 
 This directory contains a collection of files, each serving a unique purpose:
 
-0. <strong>Positive anything is better than negative nothing</strong>:
-	<details>
-	<summary><strong><a href="./0-positive_or_negative.c">0-positive_or_negative.c</a></strong> - C program that prints whether a randomly generated number is positive or negative, followed by a new line.</summary>
-	<br>
-   <ul>
-      <li>Completion of <a href="https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c">this source code</a>.</li>
-      <li>Stores a different random number every time the program is run.</li>
-      <li>Prints the number followed by <code>is positive</code> if the number is greater than 0, <code>is zero</code> if the number is zero, or <code>is negative</code> if the number is less than 0.</li>
-   </ul>
-	<br>
-   <strong>Test Cases:</strong>
-   <pre>
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
-   $ ./0-positive_or_negative
-   -520693284 is negative
-   $ ./0-positive_or_negative
-   -973398895 is negative
-   $ ./0-positive_or_negative
-   -199220452 is negative
-   $ ./0-positive_or_negative
-   561319348 is positive
-   $ ./0-positive_or_negative
-   561319348 is positive
-   $ ./0-positive_or_negative
-   266853958 is positive
-   $ ./0-positive_or_negative
-   -48147767 is negative
-   $ ./0-positive_or_negative
-   0 is zero
-   </pre>
-   </details>
+<details>
+<summary>
+	<strong><a href="./0-positive_or_negative.c">0.Positive anything is better than negative nothing:</a></strong>
+	C program that prints whether a randomly generated number is positive or negative, followed by a new line.
+</summary>
+<br/>
+
+- Completion of <a href="https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c">this source code</a>.</li>
+- Stores a different random number every time the program is run.</li>
+- Prints the number followed by `is positive` if the number is greater than 0,
+  `is zero` if the number is zero, or `is negative` if the number is less than 0.
+
+**Test Cases:**
+```sh
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
+$ ./0-positive_or_negative
+-520693284 is negative
+$ ./0-positive_or_negative
+-973398895 is negative
+$ ./0-positive_or_negative
+-199220452 is negative
+$ ./0-positive_or_negative
+561319348 is positive
+$ ./0-positive_or_negative
+561319348 is positive
+$ ./0-positive_or_negative
+266853958 is positive
+$ ./0-positive_or_negative
+-48147767 is negative
+$ ./0-positive_or_negative
+0 is zero
+```
+</details>
 
 1. <strong>The last digit</strong>:
 	<details>
