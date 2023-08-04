@@ -79,17 +79,20 @@ Last digit of -748255693 is -3 and is less than 6 and not 0
 ```
 </details>
 
-2. <strong>I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</strong>:
-	<details>
-   <summary><strong><a href="./2-print_alphabet.c">2-print_alphabet.c</a></strong> - C program that prints the alphabet in lowercase, followed by a new line, using only the <code>putchar</code> function exactly twice.</summary>
-   <br>
-   <strong>Test Cases:</strong>
-   <pre>
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
-   $ ./2-print_alphabet
-   abcdefghijklmnopqrstuvwxyz
-   </pre>
-	</details>
+<details>
+<summary>
+	<strong><a href="./2-print_alphabet.c">2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game:</a></strong>
+	C program that prints the alphabet in lowercase, followed by a new line, using only the <code>putchar</code> function exactly twice.
+</summary>
+<br>
+
+**Test Cases**
+```sh
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
+$ ./2-print_alphabet
+abcdefghijklmnopqrstuvwxyz
+```
+</details>
 
 3. <strong>When I was having that alphabet soup, I never thought that it would pay off</strong>:
 	<details>
