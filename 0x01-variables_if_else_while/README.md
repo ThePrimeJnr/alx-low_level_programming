@@ -24,12 +24,18 @@ By the end of this project, I have developed the ability to explain the followin
 
 This directory contains a collection of files, each serving a unique purpose:
 
-1. **0-positive_or_negative.c**:
-   <details>
-   <summary>This program assigns a random number to the variable `n` and displays whether it is positive, negative, or zero.</summary>
-
-   **Test Cases:**
-   ```
+0. <strong>Positive anything is better than negative nothing</strong>:
+	<details>
+	<summary><strong><a href="./0-positive_or_negative.c">0-positive_or_negative.c</a></strong> - C program that prints whether a randomly generated number is positive or negative, followed by a new line.</summary>
+	<br>
+   <ul>
+      <li>Completion of <a href="https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c">this source code</a>.</li>
+      <li>Stores a different random number every time the program is run.</li>
+      <li>Prints the number followed by <code>is positive</code> if the number is greater than 0, <code>is zero</code> if the number is zero, or <code>is negative</code> if the number is less than 0.</li>
+   </ul>
+	<br>
+   <strong>Test Cases:</strong>
+   <pre>
    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
    $ ./0-positive_or_negative
    -520693284 is negative
@@ -47,157 +53,162 @@ This directory contains a collection of files, each serving a unique purpose:
    -48147767 is negative
    $ ./0-positive_or_negative
    0 is zero
-   ```
+   </pre>
    </details>
 
-2. **1-last_digit.c**:
-   <details>
-   <summary>This program assigns a random number to the variable `n` and prints the last digit of the number, along with its characteristics.</summary>
-
-   **Test Cases:**
-   ```
+1. <strong>The last digit</strong>:
+	<details>
+   <summary><strong><a href="./1-last_digit.c">1-last_digit.c</a></strong> - C program that prints the last digit of a randomly generated number, followed by a new line:</summary>
+   <br>
+   <ul>
+      <li>Completion of <a href="https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c">this source code</a>.</li>
+      <li>Stores a different value every time the program is run.</li>
+      <li>Prints the string <code>Last digit of</code> [number] <code>is</code> [last_digit] <code>and is</code> followed by <code>greater than 5</code> if the digit is greater than 5, <code>0</code> if the digit is 0, or <code>less than 6 and not 0</code> if the digit is less than 6 and not 0.</li>
+   </ul>
+   <br>
+   <strong>Test Cases:</strong>
+   <pre>
    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
    $ ./1-last_digit
    Last digit of 629438752 is 2 and is less than 6 and not 0
    $ ./1-last_digit
    Last digit of -748255693 is -3 and is less than 6 and not 0
-   ...
-   ```
-   </details>
+	</pre>
+	</details>
 
-3. **2-print_alphabet.c**:
-   <details>
-   <summary>A program that prints the lowercase alphabet.</summary>
-
-   **Test Cases:**
-   ```
+2. <strong>I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</strong>:
+	<details>
+   <summary><strong><a href="./2-print_alphabet.c">2-print_alphabet.c</a></strong> - C program that prints the alphabet in lowercase, followed by a new line, using only the <code>putchar</code> function exactly twice.</summary>
+   <br>
+   <strong>Test Cases:</strong>
+   <pre>
    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
    $ ./2-print_alphabet
    abcdefghijklmnopqrstuvwxyz
-   ```
-   </details>
+   </pre>
+	</details>
 
-4. **3-print_alphabets.c**:
-   <details>
-   <summary>A program that prints both the lowercase and uppercase alphabets.</summary>
-
-   **Test Cases:**
-   ```
+3. <strong>When I was having that alphabet soup, I never thought that it would pay off</strong>:
+	<details>
+   <summary><strong><a href="./3-print_alphabets.c">3-print_alphabets.c</a></strong> - C program that prints the alphabet in lowercase, then in uppercase, followed by a new line, using only the <code>putchar</code> function exactly three times.</summary>
+   <br>
+   <strong>Test Cases:</strong>
+   <pre>
    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
    $ ./3-print_alphabets | cat -e
    abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
-   ```
-   </details>
+   </pre>
+	</details>
 
-5. **4-print_alphabt.c**:
-   <details>
-   <summary>A program that prints the lowercase alphabet while excluding the letters 'q' and 'e'.</summary>
-
-   **Test Cases:**
-   ```
+4. <strong>alphABET</strong>:
+	<details>
+   <summary><strong><a href="./4-print_alphabt.c">4-print_alphabt.c</a></strong> - C program that prints the alphabet in lowercase except for the letters <code>q</code> and <code>e</code>, followed by a new line, using only the <code>putchar</code> function exactly twice.</summary>
+   <br>
+   <strong>Test Cases:</strong>
+   <pre>
    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
    $ ./4-print_alphabt
    abcdfghijklmnoprstuvwxyz
    $ ./4-print_alphabt | grep [eq]
    $
-   ```
-   </details>
+   </pre>
+	</details>
 
-6. **5-print_numbers.c**:
-   <details>
-   <summary>A program that prints single-digit numbers from 0 to 9.</summary>
+5. <strong>Numbers</strong>:
+	<details>
+	<summary><strong><a href="./5-print_numbers.c">5-print_numbers.c</a></strong> - C program that prints all single-digit numbers of base 10 starting from 0, followed by a new line.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
+	$ ./5-print_numbers
+	0123456789
+	</pre>
+	</details>
 
-   **Test Cases:**
-   ```
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
-   $ ./5-print_numbers
-   0123456789
-   ```
-   </details>
+6. <strong>Numberz</strong>:
+	<details>
+	<summary><strong><a href="./6-print_numberz.c">6-print_numberz.c</a></strong> - C program that prints all single-digit numbers of base 10 starting from 0, followed by a new line, using only the <code>putchar</code> function exactly twice without any variables of type char.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
+	$ ./6-print_numberz
+	0123456789
+	</pre>
+	</details>
 
-7. **6-print_numberz.c**:
-   <details>
-   <summary>A program that prints single-digit numbers from 0 to 9, using the `putchar` function only.</summary>
+7. <h3><strong>Smile in the mirror</strong>:</h3>
+	<details>
+	<summary><strong><a href="./7-print_tebahpla.c">7-print_tebahpla.c</a></strong> - C program that prints the lowercase alphabet in reverse, followed by a new line, using only the <code>putchar</code> function exactly twice.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
+	$ ./7-print_tebahpla
+	zyxwvutsrqponmlkjihgfedcba
+	</pre>
+	</details>
 
-   **Test Cases:**
-   ```
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
-   $ ./6-print_numberz
-   0123456789
-   ```
-   </details>
+8. <strong>Hexadecimal</strong>:
+	<details>
+	<summary><strong><a href="./8-print_base16.c">8-print_base16.c</a></strong> - C program that prints all the numbers of base 16 in lowercase, followed by a new line, using only the <code>putchar</code> function exactly three times.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
+	$ ./8-print_base16
+	0123456789abcdef
+	</pre>
+</details>
 
-8. **7-print_tebahpla.c**:
-   <details>
-   <summary>A program that prints the lowercase alphabet in reverse.</summary>
+9. <strong>Patience, persistence and perspiration make an unbeatable combination for success</strong>:
+	<details>
+	<summary><strong><a href="./9-print_comb.c">9-print_comb.c</a></strong> - C program that prints all possible combinations of single-digit numbers, using only the <code>putchar</code> function exactly four times without any variables of type char:<br>Numbers are separated by <code>,</code>, followed by a space.<br>Numbers are printed in ascending order.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
+	$ ./9-print_comb | cat -e
+	0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
+	</pre>
+	</details>
 
-   **Test Cases:**
-   ```
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
-   $ ./7-print_tebahpla
-   zyxwvutsrqponmlkjihgfedcba
-   ```
-   </details>
+10. <strong>100-print_comb3.c</strong>:
+	<details>
+	<summary><strong><a href="./100-print_comb3.c">100-print_comb3.c</a></strong> - C program that prints all possible combinations of two digits, avoiding repetition and certain patterns.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-print_comb3.c -o 100-print_comb3
+	$ ./100-print_comb3
+	01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+	</pre>
+	</details>
 
-9. **8-print_base16.c**:
-   <details>
-   <summary>A program that prints all numbers of base 16 (hexadecimal) in lowercase.</summary>
+11. <strong>101-print_comb4.c</strong>:
+	<details>
+	<summary><strong><a href="./101-print_comb4.c">101-print_comb4.c</a></strong> - C program that prints all possible combinations of three digits, avoiding repetition and certain patterns.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-print_comb4.c -o 101-print_comb4
+	$ ./101-print_comb4
+	012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
+	</pre>
+	</details>
 
-   **Test Cases:**
-   ```
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
-   $ ./8-print_base16
-   0123456789abcdef
-   ```
-   </details>
-
-10. **9-print_comb.c**:
-    <details>
-    <summary>A program that prints all possible single-digit combinations, separated by commas.</summary>
-
-    **Test Cases:**
-    ```
-    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
-    $ ./9-print_comb | cat -e
-    0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
-    ```
-    </details>
-
-11. **100-print_comb3.c**:
-    <details>
-    <summary>A program that prints all possible combinations of two digits, avoiding repetition and certain patterns.</summary>
-
-    **Test Cases:**
-    ```
-    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-print_comb3.c -o 100-print_comb3
-    $ ./100-print_comb3
-    01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
-    ```
-    </details>
-
-12. **101-print_comb4.c**:
-    <details>
-    <summary>A program that prints all possible combinations of three digits, avoiding repetition and certain patterns.</summary>
-
-    **Test Cases:**
-    ```
-    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-print_comb4.c -o 101-print_comb4
-    $ ./101-print_comb4
-    012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
-    ```
-    </details>
-
-13. **102-print_comb5.c**:
-    <details>
-    <summary>A program that prints all possible combinations of two two-digit numbers.</summary>
-
-    **Test Cases:**
-    ```
-    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 102-print_comb5.c -o 102-print_comb5
-    $ ./102-print_comb5
-    00 01, 00 02, 00 03, ..., 98 99
-    ```
-    </details>
+12. <strong>102-print_comb5.c</strong>:
+	<details>
+	<summary><strong><a href="./102-print_comb5.c">102-print_comb5.c</a></strong> - C program that prints all possible combinations of two two-digit numbers.</summary>
+	<br>
+	<strong>Test Cases:</strong>
+	<pre>
+	$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 102-print_comb5.c -o 102-print_comb5
+	$ ./102-print_comb5
+	00 01, 00 02, 00 03, ..., 98 99
+	</pre>
+	</details>
 
 ## Compilation and Execution 🛠️🔧
 
