@@ -96,7 +96,7 @@ abcdefghijklmnopqrstuvwxyz
 
 <details>
 <summary>
-	<strong><a href="./3-print_alphabets.c">3. When I was having that alphabet soup, I never thought that it would pay off</a></strong>
+	<strong><a href="./3-print_alphabets.c">3. When I was having that alphabet soup, I never thought that it would pay off:</a></strong>
 	C program that prints the alphabet in lowercase, then in uppercase, followed by a new line, using only the <code>putchar</code> function exactly three times.
 </summary>
 <br>
@@ -109,19 +109,21 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
 ```
 </details>
 
-4. <strong>alphABET</strong>:
-	<details>
-   <summary><strong><a href="./4-print_alphabt.c">4-print_alphabt.c</a></strong> - C program that prints the alphabet in lowercase except for the letters <code>q</code> and <code>e</code>, followed by a new line, using only the <code>putchar</code> function exactly twice.</summary>
-   <br>
-   <strong>Test Cases:</strong>
-   <pre>
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
-   $ ./4-print_alphabt
-   abcdfghijklmnoprstuvwxyz
-   $ ./4-print_alphabt | grep [eq]
-   $
-   </pre>
-	</details>
+<details>
+<summary>
+	<strong><a href="./4-print_alphabt.c">4. alphABET:</a></strong>
+	C program that prints the alphabet in lowercase except for the letters <code>q</code> and <code>e</code>, followed by a new line, using only the <code>putchar</code> function exactly twice.
+</summary>
+<br>
+
+**Test Cases**
+```sh
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
+$ ./4-print_alphabt
+abcdfghijklmnoprstuvwxyz
+$ ./4-print_alphabt | grep [eq]
+```
+</details>
 
 5. <strong>Numbers</strong>:
 	<details>
