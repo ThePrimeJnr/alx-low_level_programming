@@ -94,17 +94,20 @@ abcdefghijklmnopqrstuvwxyz
 ```
 </details>
 
-3. <strong>When I was having that alphabet soup, I never thought that it would pay off</strong>:
-	<details>
-   <summary><strong><a href="./3-print_alphabets.c">3-print_alphabets.c</a></strong> - C program that prints the alphabet in lowercase, then in uppercase, followed by a new line, using only the <code>putchar</code> function exactly three times.</summary>
-   <br>
-   <strong>Test Cases:</strong>
-   <pre>
-   $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
-   $ ./3-print_alphabets | cat -e
-   abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
-   </pre>
-	</details>
+<details>
+<summary>
+	<strong><a href="./3-print_alphabets.c">3. When I was having that alphabet soup, I never thought that it would pay off</a></strong>
+	C program that prints the alphabet in lowercase, then in uppercase, followed by a new line, using only the <code>putchar</code> function exactly three times.
+</summary>
+<br>
+
+**Test Cases**
+```sh
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
+$ ./3-print_alphabets | cat -e
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
+```
+</details>
 
 4. <strong>alphABET</strong>:
 	<details>
