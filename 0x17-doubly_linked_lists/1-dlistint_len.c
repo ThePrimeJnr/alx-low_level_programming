@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* dlistint - a function that returns length of a linked list
+* dlistint_len - a function that returns length of a linked list
 * @h: pointer to the head of the linked list
 * Return: the length of the linked list
 *
